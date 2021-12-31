@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(202, 240, 240);
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(221, 112, 69);
+    background-color: rgb(203, 210, 218);
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
