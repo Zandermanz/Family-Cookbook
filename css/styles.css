@@ -22,3 +22,9 @@ p{
 li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+img {
+    border-radius: 20px;
+    width: 500px;
+    height: auto; 
+    padding: 5px;
+}
