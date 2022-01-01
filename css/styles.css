@@ -1,18 +1,24 @@
 body{
-    background-color: rgb(202, 240, 240);
+    background-color: hsl(148, 100%, 90%);
 }
 h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(221, 112, 69);
-    background-color: rgb(203, 210, 218);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
     font-weight: bold;
     font-variant: small-caps;
 }
 
 h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    
 }
 
 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
