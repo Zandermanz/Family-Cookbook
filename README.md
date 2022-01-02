@@ -1,7 +1,7 @@
-# Phillips-Family-Cookbook
-Phillips Family Cookbook &amp; Recipes
+Family-Cookbook
+Family Cookbook &amp; Recipes
 
-Collection of Phillips Family Recipes in webpage format
+Collection of Family Recipes in webpage format
 
 ## Useful GitHub Formatting for Readme
 
