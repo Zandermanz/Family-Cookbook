@@ -20,7 +20,10 @@ p{
     font-size: 2vw;
 }
 
-li{
+ul,
+ol,
+li
+{
     font-size: 2vw;
 }
 
