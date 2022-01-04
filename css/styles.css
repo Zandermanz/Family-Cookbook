@@ -22,21 +22,13 @@ h2{
     text-decoration: underline; 
 }
 
-p{
-    font-size: 2vw;
-    font-weight: 200;
-}
-
 ul,
 ol,
-li
+li,
+p,
+a
 {
     font-size: 2vw;
-    font-weight: 200;
-}
-
-a{
-    font-size: 2vw; 
     font-weight: 200;
 }
 img {
