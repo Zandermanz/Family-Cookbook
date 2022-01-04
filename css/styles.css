@@ -7,8 +7,9 @@ h1{
     color:black;
     font-size:5vw;
     font-weight: 200;
-    font-weight: bold;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-variant: small-caps;
+    text-decoration: underline;
 }
 
 h2{
@@ -37,7 +38,8 @@ a{
 }
 img {
     border-radius: 20px;
-    width: 8vw;
+    width: 80vw;
+    max-width: 900px;
     height: auto; 
     padding: 5px;
 }
