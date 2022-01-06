@@ -1,15 +1,26 @@
+html{
+    box-sizing: border-box;
+}
 body{
     background-color: whitesmoke;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size:10vw;
 }
 h1{
+<<<<<<< HEAD
     font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+>>>>>>> f6bb84e2e4e887baadf7e4c79f2fe8e17c577fbf
     color:black;
-    font-weight: bold;
+    font-size:5vw;
+    font-weight: 200;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-variant: small-caps;
     text-decoration: underline;
 }
 
 h2{
+<<<<<<< HEAD
     font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     text-decoration: underline;
     
@@ -21,11 +32,28 @@ p{
 
 li{
     font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+    font-family: Copperplate, Roboto, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size:3vw;
+    text-decoration: underline; 
+}
+
+ul,
+ol,
+li,
+p,
+a
+{
+    font-size: 2vw;
+    font-weight: 200;
+>>>>>>> f6bb84e2e4e887baadf7e4c79f2fe8e17c577fbf
 }
 
 img {
     border-radius: 20px;
-    width: 500px;
+    width: 80vw;
+    max-width: 900px;
     height: auto; 
     padding: 5px;
 }
