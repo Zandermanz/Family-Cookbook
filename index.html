@@ -8,32 +8,53 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <div>
-            <h1>Family Cookbook</h1>
-        </div>
-        <div>
+        <!--------------HEADER-------------------->
+        <div class="header">
+            <div class="left-links">
+              <ul> 
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#main-dishes">Main Dishes</a></li>
+                <!--<li><a href="#">Extra Category for later</a></li>-->
+              </ul>
+            </div>
+            <div class="logo">
+                <img src="./images/logo.png" alt="Family Cookbook Logo">
+            </div>
+            <div class="right-links">
+              <ul>
+                <li><a href="./index.html#soups">Soups</a></li>
+                <li><a href="./index.html#desserts">Desserts</a></li>
+                <!--<li><a href="#">Extra Category for later</a></li>-->
+              </ul>
+            </div>
+          </div>
+        <!---------------PICTURE------------------>
+          <div class="scenic-pictures">
             <img src=".//images/mountain.JPG" alt="Mountain Landscape">
         </div>        
+        
+        <!---------------Main Body----------------->
         <div>
             <p>Welcome to the family cookbook. Here are a couple of favorite family recipes that have been around for a while.</p>   
+        
         </div>  
-            <h2>Soups and Stews</h2>
-                <ul>
+            <h2 id="soups">Soups and Stews</h2>
+                <ul class="nobullets">
                     <li><a href="pages/potatoleeksoup.html">Potato Leek Soup</a></li>
                 </ul>
-            <h2>Main Dishes</h2>
-                <ul>
+            <h2 id="main-dishes">Main Dishes</h2>
+                <ul class="nobullets">
                     <li><a href="pages/pad_thai.html">Dad's Pad Thai</a></li>
                     <li><a href="pages/salt_fish_dinner.html">Grandma Newcomb's Salt Fish Dinner</a></li>
                     <li><a href="pages/americanchopsuey.html">American Chop Suey</a></li>
                 </ul>
-            <h2>Desserts</h2>
-                <ul>
+            <h2 id="desserts">Desserts</h2>
+                <ul class="nobullets">
                     <li><a href="pages/chocolate_bread_pudding.html">Chocolate Bread Pudding</a></li>
                     <li><a href="pages/grapenut_pudding.html">Shirely's Grape-nut Pudding</a></li>
                 </ul>
-            <h2>Ideas and Recipes in Process</h2>
-            <ul>
+            <h2 id="ideas">Ideas and Recipes in Process</h2>
+            <ul class="nobullets">
                 <li><a href="pages/recipeideas.html">Recipe Ideas</a></li>   
             </ul>
     </body>

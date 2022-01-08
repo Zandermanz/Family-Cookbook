@@ -4,56 +4,90 @@ html{
 body{
     background-color: whitesmoke;
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-    font-size:10vw;
+    font-size: 2vw;
+    font-weight: 200;
 }
+
+/* --------Header Section CSS --------*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    font-size: 4vw;
+    font-weight: 200;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+.header ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.header a {
+    font-size: 22px;
+    color: black;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+}
+
+.logo img{
+    height: auto;
+    width: 100px;
+    border: 8px;
+}
+
+.left-links ul{
+    gap: 8px;
+    display: flex;
+}
+
+.right-links ul{
+    gap: 8px;
+    display: flex;
+}
+
+
+
 h1{
-<<<<<<< HEAD
-    font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-=======
->>>>>>> f6bb84e2e4e887baadf7e4c79f2fe8e17c577fbf
     color:black;
     font-size:5vw;
     font-weight: 200;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-variant: small-caps;
     text-decoration: underline;
+    text-align: center;
 }
 
 h2{
-<<<<<<< HEAD
-    font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    text-decoration: underline;
-    
-}
-
-p{
-    font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-li{
-    font-family: 'Nato Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-=======
     font-family: Copperplate, Roboto, Helvetica, sans-serif;
     font-weight: 200;
     font-size:3vw;
     text-decoration: underline; 
+    text-align: left;
 }
 
-ul,
-ol,
-li,
-p,
-a
-{
-    font-size: 2vw;
-    font-weight: 200;
->>>>>>> f6bb84e2e4e887baadf7e4c79f2fe8e17c577fbf
-}
+.scenic-pictures img {
+    /* border-radius Rounds corners */
+    border-radius: 20px; 
+    /*display: block treats it as a block element */
+    display: block; 
+    /*sets both sides to be automatically even and sets width of picture */
+    margin-right: auto;
+    margin-left: auto; 
+    width: 80%; 
+   }
 
-img {
-    border-radius: 20px;
-    width: 80vw;
-    max-width: 900px;
-    height: auto; 
-    padding: 5px;
+.nobullets {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+.centered{
+    text-align: center;
 }

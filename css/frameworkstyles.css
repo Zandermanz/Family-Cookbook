@@ -29,29 +29,44 @@ h2{
     padding: 5px;
 } */
 
-.flex-container{
+.header{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 16px;
     gap: 8px;
-}
-
-.flex-container div{
-    border: dotted red;
-    height: 150px;
-    flex: 1;
-}
-
-.logo img{
-    height: auto;
-    width: 150px;
-    border: 8px;
-}
-
-.header{
-    color:rgb(167, 6, 6);
-    font-size:5vw;
+    font-size: 4vw;
     font-weight: 200;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-variant: small-caps;
     text-decoration: underline;
+}
+.header ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.header a {
+    font-size: 22px;
+    color: black;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+}
+
+.logo img{
+    height: auto;
+    width: 100px;
+    border: 8px;
+}
+
+.left-links ul{
+    gap: 8px;
+    display: flex;
+}
+
+.right-links ul{
+    gap: 8px;
+    display: flex;
 }
