@@ -22,19 +22,19 @@ body{
     text-decoration: underline;
 }
 
-/*Formatting for lists in header*/
+/* Formatting for lists in header */
 .header ul {
-    /* this removes the dots on the list items*/
+    /* Removes the dots on the list items */
     list-style-type: none;
     padding: 0px;
 }
 
-/*Formatting for Links in header*/
+/* Formatting for Links in header */
 .header a { 
     font-size: 3vw;
-    /*Removes color from header links*/
+    /* Removes color from header links */
     color: black; 
-    /* this removes the line under the links */
+    /* Removes the line under the links */
     text-decoration: none;
 }
 
@@ -75,10 +75,9 @@ h2{
 .scenic-pictures img {
     /* border-radius Rounds corners */
     border-radius: 20px; 
-    /*display: treats it as a block element */
+    /* display: treats it as a block element */
     display: block; 
-    /*sets both sides to be automatically even and sets width of picture, 
-    margin right and left fill up available space */
+    /* auto margin sets both sides to fill up available space. Width sets picture to only take up 80 percent of vw */
     margin-right: auto;
     margin-left: auto; 
     width: 80%; 
