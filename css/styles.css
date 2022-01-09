@@ -14,31 +14,33 @@ body{
     justify-content: center;
     align-items: center;
     padding: 16px;
-    gap: 8px;
+    gap: 16px;
     font-size: 4vw;
     font-weight: 200;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-variant: small-caps;
     text-decoration: underline;
 }
+
+/*Formatting for lists in header*/
 .header ul {
     /* this removes the dots on the list items*/
     list-style-type: none;
-    margin-left: -20px;
-    margin-right: 20px;
+    padding: 0px;
 }
 
-.header a {
-    font-size: 22px;
-    color: black;
-    padding: 8px;
+/*Formatting for Links in header*/
+.header a { 
+    font-size: 3vw;
+    /*Removes color from header links*/
+    color: black; 
     /* this removes the line under the links */
     text-decoration: none;
 }
 
 .logo img{
+    width: 12vw;
     height: auto;
-    width: 100px;
     border: 8px;
 }
 
@@ -48,11 +50,9 @@ body{
 }
 
 .right-links ul{
-    gap: 8px;
+    gap: 12px;
     display: flex;
 }
-
-
 
 h1{
     color:black;
@@ -75,9 +75,10 @@ h2{
 .scenic-pictures img {
     /* border-radius Rounds corners */
     border-radius: 20px; 
-    /*display: block treats it as a block element */
+    /*display: treats it as a block element */
     display: block; 
-    /*sets both sides to be automatically even and sets width of picture */
+    /*sets both sides to be automatically even and sets width of picture, 
+    margin right and left fill up available space */
     margin-right: auto;
     margin-left: auto; 
     width: 80%; 
