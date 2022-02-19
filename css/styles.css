@@ -4,7 +4,7 @@ html{
 body{
     background-color: whitesmoke;
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-    font-size: 2vw;
+    font-size: 16px;
     font-weight: 200;
 }
 
@@ -15,7 +15,7 @@ body{
     align-items: center;
     padding: 16px;
     gap: 16px;
-    font-size: 4vw;
+    font-size: 24px;
     font-weight: 200;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-variant: small-caps;
@@ -31,7 +31,7 @@ body{
 
 /* Formatting for Links in header */
 .header a { 
-    font-size: 3vw;
+    font-size: 24px;
     /* Removes color from header links */
     color: black; 
     /* Removes the line under the links */
@@ -39,24 +39,24 @@ body{
 }
 
 .logo img{
-    width: 12vw;
+    width: 100px;
     height: auto;
     border: 8px;
 }
 
 .left-links ul{
-    gap: 8px;
+    gap: 18px;
     display: flex;
 }
 
 .right-links ul{
-    gap: 12px;
+    gap: 18px;
     display: flex;
 }
 
 h1{
     color:black;
-    font-size:5vw;
+    font-size:30px;
     font-weight: 200;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-variant: small-caps;
@@ -67,7 +67,7 @@ h1{
 h2{
     font-family: Copperplate, Roboto, Helvetica, sans-serif;
     font-weight: 200;
-    font-size:3vw;
+    font-size:24px;
     text-decoration: underline; 
     text-align: left;
 }
@@ -80,7 +80,7 @@ h2{
     /* auto margin sets both sides to fill up available space. Width sets picture to only take up 80 percent of vw */
     margin-right: auto;
     margin-left: auto; 
-    width: 80%; 
+    width: 400px; 
    }
 
 .nobullets {
@@ -90,4 +90,10 @@ h2{
     }
 .centered{
     text-align: center;
+}
+
+.mainBody{
+    margin: auto;
+    max-width: 700px;
+    
 }
