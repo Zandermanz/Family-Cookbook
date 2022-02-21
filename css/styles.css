@@ -3,9 +3,28 @@ html{
 }
 body{
     background-color: whitesmoke;
-    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 200;
+}
+
+h1,
+h2 {
+    font-weight: 200;
+    font-family: "Open Sans", "Helvetica Neue", Roboto, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+h1{
+    color:black;
+    font-size:30px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+h2{
+    font-size:24px;
+    text-align: left;
 }
 
 /* --------Header Section CSS --------*/
@@ -44,32 +63,10 @@ body{
     border: 8px;
 }
 
-.left-links ul{
-    gap: 18px;
-    display: flex;
-}
-
+.left-links ul, 
 .right-links ul{
     gap: 18px;
     display: flex;
-}
-
-h1{
-    color:black;
-    font-size:30px;
-    font-weight: 200;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-variant: small-caps;
-    text-decoration: underline;
-    text-align: center;
-}
-
-h2{
-    font-family: Roboto, "Open Sans", Helvetica, sans-serif;
-    font-weight: 200;
-    font-size:24px;
-    text-decoration: underline; 
-    text-align: left;
 }
 
 .scenic-pictures img {
@@ -87,6 +84,7 @@ h2{
     list-style: none;
     padding: 16px;
     }
+
 .centered{
     text-align: center;
 }
