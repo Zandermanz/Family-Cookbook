@@ -85,8 +85,7 @@ h2{
 
 .nobullets {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    padding: 16px;
     }
 .centered{
     text-align: center;
