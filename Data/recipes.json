@@ -1,8 +1,83 @@
-const data = {recipes:{[
-        id: 0,
-        title: "Test Recipe",
+const data = {recipes :[ //opens data object and recipes array
+    {   "id": 0,
+        title: "American Chop Suey",
+        recipeCategory: "Entree",
+        recipeIngredient: [
+            "1 lb. of pasta", 
+            "1 lb. ground beef", 
+            "2 cloves of garlic", 
+            "2 cans of condensed tomato soup",
+            "2 cans of stewed tomatoes", 
+            "Salt to taste",
+        ],
+        recipeInstructions:[
+            "Bring salted water to a boil and cook pasta until tender or according to package directions.", 
+            "Brown ground beef over medium high heat.", 
+            "As the beef is almost done, add garlic and cook for 1 minute.", 
+            "Add condensed tomato soup and canned stewed tomatoes to beef and simmer. If unavailable, you may substitute regular tomato soup with added sugar for the condensed tomato soup.",
+            "Add cooked pasta to sauce and stir.",
+        ],
+    }, // closes American Chop Suey
+
+    {   "id": 1,
+        title: "Baked Chicken",
+        recipeCategory: "Entree",
+        recipeIngredient:[
+            "Whole chicken",
+            "Kosher salt- ¼ cup",
+            "Pepper",
+            "Lemons- 2",
+            "Garlic- 6-8 cloves peeled",
+            "Rosemary- several sprigs or Thyme- one sprig",
+            "Butter- 6 Tbsp.",
+        ],
+        recipeInstructions:[
+            "8 to 24 hours before baking dry brine by rubbing chicken with salt and pepper under the skin of the breast and let sit covered in the fridge.",
+            "Quarter lemons, peel garlic, and stuff in cavity of chicken along with the herb you are using.",
+            "Add seasoning under skin: Cut butter into cubes, smear some of the butter under the skin along with reserved herbs and slivered garlic cloves.",
+            "Rub outside of the chicken with remaining butter and herbs.",
+            "Roast at 350 with aluminum foil tent for the first 30 minutes. Remove tent and cook for another 30-60 minutes, checking temperature with a meat thermometer.",
+        ],
+    }, //closes recipe
+    {   "id": 2,
+        title: "Chocolate Bread Pudding",
+        recipeCategory: "Dessert",
+        recipeIngredient: [ 
+            "Bread- 4 Cups Day old Bread, cubed or torn",
+            "Milk- 4 cups",
+            "Eggs- 4",
+            "Cocoa Powder- 3 Heaping tablespoons",
+            "Sugar- 3/4 to 1 cup",
+            "Vanilla- 1 - 2 teaspoons",
+            "Cinnamon- pinch if desired- optional"
+        ],
+        recipeInstructions:[
+            "Preheat oven to 350 degrees.",
+            "Scald milk by heating it up until skin forms on top.",
+            "Add sugar and bread to milk.",
+            "Whisk cocoa into eggs in separate bowl.",
+            "Temper the eggs by slowly adding about 1 cup of hot milk to eggs while whisking. This prevents you from making scrambled eggs.",
+            "Stir the egg/milk mixture back into the scalded milk.",
+            "Add vanilla and cinnamon if desired.",
+            "Pour into buttered casserole.",
+            "Bain Marie the casserole dish by placing it inside another larger casserole dish filed half-way with boiling or hot water.",
+            "Bake at 350 Degrees until set, around 30-45 minutes. A knife inserted into the center should come out clean.",
+        ],
+    }, //closes recipe
+]}; //closes recipes array with ], closes data object with }
 
 
-        ]
-    }
-}
+const template = {recipes :[
+    //Template between these two comments ------>
+    {   "id": 0,
+        title: "",
+        recipeCategory: "",
+        recipeIngredient: [
+            "", 
+        ],
+        recipeInstructions:[
+            "",
+        ],
+    }, //closes recipe
+    //<-------Template between these two comments
+]};
