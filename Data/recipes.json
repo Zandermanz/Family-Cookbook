@@ -82,12 +82,12 @@ const data = {recipes :[ //opens data object and recipes array
             "Flour- 1 Tbsp.", 
         ],
         recipeInstructions:[
-            'Melt butter in skillet, add onion, saute until soft.',
-            'Add quartered mushrooms to the pan and saute over high heat until moisture evaporates.',
-            'Sprinkle top with 1 Tbsp. flour.',
-            'Add salt, pepper, and cream.',
-            'Simmer briefly and then add brandy and sherry.',
-            'Correct seasoning as needed and serve.',
+            "Melt butter in skillet, add onion, saute until soft.",
+            "Add quartered mushrooms to the pan and saute over high heat until moisture evaporates.",
+            "Sprinkle top with 1 Tbsp. flour.",
+            "Add salt, pepper, and cream.",
+            "Simmer briefly and then add brandy and sherry.",
+            "Correct seasoning as needed and serve.",
         ],
     }, //closes recipe
 
