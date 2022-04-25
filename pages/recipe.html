@@ -6,12 +6,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/styles.css">
-        <script type "text/javascript" src="../Data/recipes.json"></script>
+        <script type "text/javascript" src="../data/recipes.json"></script>
         <script type "text/javascript" src="../scripts/script.js"></script>
     </head>
     <body>
     <!--------------HEADER-------------------->
     <nav class="header">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Family Cookbook Logo">
+        </div>
         <div class="left-links">
             <ul> 
             <li><a href="../index.html">Home</a></li>
@@ -19,9 +22,7 @@
             <!--<li><a href="#">Extra Category for later</a></li>-->
             </ul>
         </div>
-        <div class="logo">
-            <img src="../images/logo.png" alt="Family Cookbook Logo">
-        </div>
+
         <div class="right-links">
             <ul>
             <li><a href="../index.html#soups">Soups</a></li>
@@ -33,15 +34,19 @@
     <!--------------Main Content-------------------->
     <h1>Recipe</h1>
     <div class="scenic-pictures">
-        <img src="../images/pasta.jpg" alt="food image">
+        <img id="picture" src="" alt="food image">
     </div>
-    <h2>Ingredients</h2>
+    <div id="#ingredients">
+        <h2 >Ingredients</h2>
         <ul>
             <li>Ingredient 1</li>
         </ul>
-    <h2>Instructions</h2>
+    </div>
+    <div id="instructions">
+        <h2>Instructions</h2>
         <ol>
             <li>Instruction 1</li>
         </ol>
+    </div>
     </body>
 </html>
