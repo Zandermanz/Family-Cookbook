@@ -2,6 +2,7 @@ const data = {recipes :[ //opens data object and recipes array
     {   "id": 0,
         title: "American Chop Suey",
         recipeCategory: "Entree",
+        vegetarian: false,
         recipeIngredient: [
             "1 lb. of pasta", 
             "1 lb. ground beef", 
@@ -22,6 +23,7 @@ const data = {recipes :[ //opens data object and recipes array
     {   "id": 1,
         title: "Baked Chicken",
         recipeCategory: "Entree",
+        vegetarian: false,
         recipeIngredient:[
             "Whole chicken",
             "Kosher salt- ¼ cup",
@@ -42,6 +44,7 @@ const data = {recipes :[ //opens data object and recipes array
     {   "id": 2,
         title: "Chocolate Bread Pudding",
         recipeCategory: "Dessert",
+        vegetarian: true,
         recipeIngredient: [ 
             "Bread- 4 Cups Day old Bread, cubed or torn",
             "Milk- 4 cups",
@@ -64,7 +67,78 @@ const data = {recipes :[ //opens data object and recipes array
             "Bake at 350 Degrees until set, around 30-45 minutes. A knife inserted into the center should come out clean.",
         ],
     }, //closes recipe
-]}; //closes recipes array with ], closes data object with }
+
+    {   "id": 3,
+        title: "Creamed Mushrooms",
+        recipeCategory: "Entree",
+        vegetarian: true,
+        recipeIngredient: [
+            "Minced Onion- 2 Tbsp.", 
+            "Butter- 2 Tbsp.", 
+            "Brandy- 1 Tbsp.", 
+            "Sherry- 1 Tbsp.", 
+            "Mushrooms- 1 to 2 pounds any fresh mushroom", 
+            "Cream- 1 ???", 
+            "Flour- 1 Tbsp.", 
+        ],
+        recipeInstructions:[
+            'Melt butter in skillet, add onion, saute until soft.',
+            'Add quartered mushrooms to the pan and saute over high heat until moisture evaporates.',
+            'Sprinkle top with 1 Tbsp. flour.',
+            'Add salt, pepper, and cream.',
+            'Simmer briefly and then add brandy and sherry.',
+            'Correct seasoning as needed and serve.',
+        ],
+    }, //closes recipe
+
+    {   "id": 4,
+        title: "General Tso's Chicken",
+        recipeCategory: "Entree",
+        vegetarian: false,
+        recipeIngredient: [
+            "4 cups cooked white or brown rice",
+            "Steamed broccoli",
+            "Sauce",
+            "2 tsp sesame oil",
+            "2 tsp cornstarch",
+            "2 large cloves garlic, minced",
+            "1 Tbsp ginger, minced",
+            "1 Tbsp rice vinegar",
+            "1/4 cup maple syrup",
+            "3 Tbsp tamari or soy sauce",
+            "1 Tbsp water",
+            "Tofu",
+            "12 ounces extra-firm tofu",
+            "3 Tbsp tamari or soy sauce",
+            "1 tsp chili garlic sauce",
+            "1 tsp toasted sesame oil",
+            "1 Tbsp maple syrup",
+            "4-5 Tbsp cornstarch",
+            "2 Tbsp neutral oil (such as grape seed or avocado)",
+            "Main",
+            "1 Tbsp sesame oil",
+            "1 bundle green onions",
+            "4-7 dried Thai red chilies or substitute 1 Tbsp chili garlic sauce",
+            "Assorted vegetables on hand, such as: carrots, cabbage, onions, etc.",
+            "Sesame seeds, for garnish",
+        ],
+        recipeInstructions:[    
+            "Drain tofu and place between towels or paper towels. Set something heavy on top to press out excess water for 10 minutes.",
+            "Chop green onions, garlic, and ginger and set aside.",
+            "While tofu is pressing, prepare sauce by combining sesame oil, cornstarch, minced garlic, minced ginger, rice vinegar, maple syrup, tamari or soy sauce, and water in a small bowl and stir. Taste and adjust seasonings as needed.",
+            "Heat wok to high heat and cut tofu into cubes.",
+            "Add tofu, 1 tsp soy sauce, 1 tsp sesame oil, and two tablespoon cornstarch to a plastic freezer bag and shake",
+            "To the hot wok, add 2 Tbsp and add in tofu.",
+            "Cook tofu until golden brown. Set aside.",
+            "Return wok to stove. Add 1 Tbsp sesame oil, any veg you want, chopped green onions, and dried red chilies. Sauté for 1-2 minutes, stirring frequently.",
+            "Add the sauce and tofu. Cook, stirring frequently, to coat the tofu and vegetables for 1-2 minutes.",
+            "Serve with rice and steamed broccoli or other desired sides.",
+        ],
+    }, //closes recipe
+
+//-----Insert New Recipe Right Above This Line----
+
+]}; //closes data.recipes array with ], closes data object with }
 
 
 const template = {recipes :[
@@ -72,6 +146,7 @@ const template = {recipes :[
     {   "id": 0,
         title: "",
         recipeCategory: "",
+        vegetarian: false,
         recipeIngredient: [
             "", 
         ],
