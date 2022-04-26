@@ -5,18 +5,25 @@
     const vegetarian = data.recipes.filter(recipes => recipes.vegetarian == true);
 
 //DOM Script
-const ingredients = document.querySelector('#ingredients');
-const instructions = document.querySelector('#instructions');
+    const ingredients = document.getElementById('ingredient');
+    const instructions = document.getElementById('instruction');
+    const container = document.getElementById('container');
+
 
 //functions
+
+//Adds a list of ingredients to the ingredients Div
 function addIngredients(){
-    //function exists to add a list of ingredients to the ingredients Div
-    const ingredients = document.querySelector('#ingredients');
-    const p = document.createElement('p');
-    p.textContent = `Test Ingredients`;
-    ingredients.appendChild(p)
+    let ingredientList = document.getElementById('ingredientList'); //sets ingredient UL id
+    let listItem = document.createElement('li'); //setting list item as new li element
+    listItem.textContent = 'Test Ingredient'; //setting text content of li element
+    ingredientList.appendChild(listItem); //appending listItem to ul
 }
 
 function addInstructions(){
-
+    let instructionList = document.getElementById('instructionList') // sets instruction OL id
+    let listItem = document.createElement('li'); //sets listItem
+    listItem.textContent = 'Test Instruction'; //setting text content of li element
+    instructionList.appendChild(listItem); //appending listItem to ul
 }
+  
