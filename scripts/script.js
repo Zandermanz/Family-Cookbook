@@ -26,4 +26,16 @@ function addInstructions(){
     listItem.textContent = 'Test Instruction'; //setting text content of li element
     instructionList.appendChild(listItem); //appending listItem to ul
 }
-  
+
+//take recipe title and return array of recipe ingredients
+//unfinished function--------------
+function getRecipeIngredients(title){
+    let recipe = data.recipes.filter(recipes =>{ 
+        if(recipes.title == title) {
+            console.log(recipes.recipeIngredient) //logs correct array
+            return recipes.recipeIngredient} // does not
+        }
+    )
+    console.log(recipe);
+    return recipe;
+}
