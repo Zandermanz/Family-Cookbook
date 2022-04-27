@@ -185,7 +185,18 @@ const data = {recipes :[ //opens data object and recipes array
             "Many thanks to the Reddit Kombucha recipe from which this is derived.",
         ],
     }, //closes recipe
-
+   
+    {   "id": 7,
+        title: "",
+        recipeCategory: "",
+        vegetarian: false,
+        recipeIngredient: [
+            "", 
+        ],
+        recipeInstructions:[
+            "",
+        ],
+    }, //closes recipe
 //-----Insert New Recipe Right Above This Line----
 
 ]}; //closes data.recipes array with ], closes data object with }
