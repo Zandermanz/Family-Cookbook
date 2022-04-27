@@ -162,6 +162,30 @@ const data = {recipes :[ //opens data object and recipes array
             "A knife inserted into the center should come out clean when done.",
         ],
     }, //closes recipe
+
+    {   "id": 6,
+        title: "Kombucha",
+        recipeCategory: "Beverage",
+        vegetarian: true,
+        recipeIngredient: [
+            "Water- 1 Gallon",
+            "Black Tea- 4 Tablespoons or 12 teabags",
+            "Sugar- 1 Cup",
+            "Kombucha Starter- 2 Cups",
+        ],
+        recipeInstructions:[
+            "Boil water.",
+            "Steep tea.",
+            "Add sugar and stir to dissolve.",
+            "Wait until sweet tea cools to room temperature (below 90F). Alternatively, brew a smaller batch of hot sweet tea and add cold water to bring it closer to room temperature.",
+            "Put in a loosely covered brewing vessel, with a cloth or coffee filter over the top and ferment for 2 weeks.",
+            "To bottle, If adding fruit juice, fill 10-20% of the bottle with juice and cover with kombucha. If adding sugar, start out with 1 teaspoon/4 grams per bottle (450mL/16oz), and adjust based on experimentation.",
+            "Let the bottles sit at room temperature for anywhere between 1 and 7 days.",
+            "Refrigerate the finished bottles to stop the fermentation process and allow more CO2 to dissolve into the liquid.",
+            "Many thanks to the Reddit Kombucha recipe from which this is derived.",
+        ],
+    }, //closes recipe
+
 //-----Insert New Recipe Right Above This Line----
 
 ]}; //closes data.recipes array with ], closes data object with }
