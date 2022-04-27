@@ -39,3 +39,11 @@ function getRecipeIngredients(title){
     console.log(recipe);
     return recipe;
 }
+
+//takes array and list ID and pushes array items to list.
+const arrayToHTMLList = (arr, listID) =>
+    document.querySelector(`#${listID}`).innerHTML += arr
+    .map(item => `<li>${item}</li>`)
+    .join('');
+
+// example code :arrayToHTMLList(['item 1', 'item 2'], 'myListID');

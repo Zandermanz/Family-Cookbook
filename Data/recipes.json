@@ -1,4 +1,5 @@
-const data = {recipes :[ //opens data object and recipes array
+const data = {
+    recipes :[ //opens data object and recipes array
     {   "id": 0,
         title: "American Chop Suey",
         recipeCategory: "Entree",
@@ -187,14 +188,34 @@ const data = {recipes :[ //opens data object and recipes array
     }, //closes recipe
    
     {   "id": 7,
-        title: "",
-        recipeCategory: "",
-        vegetarian: false,
+        title: "Pad Thai",
+        recipeCategory: "Entree",
+        vegetarian: true,
         recipeIngredient: [
-            "", 
+            "White Vinegar- 1 Cup",
+            "White Sugar- 2/3 Cup",
+            "Fish Sauce- 1 Cup (may use less)",
+            "Ketchup or Paprika for color",
+            "Pad Thai Noodles- One pack",
+            "Peanut Oil",
+            "Garlic- 5-6 cloves",
+            "Green Onions- 1 bunch or half dozen green onions",
+            "Ginger- Around 4 tablespoons or 4 inches of ginger root",
+            "Raw Peanuts- 1/4 Cup",
+            "Bean Sprouts- 1 Package or 2 cups",
+            "Cilantro- Half a bunch",
+            "Lime- Juice of 1 lime",
+            "Red Hot Chili Peppers or Sambal Oelek",
         ],
         recipeInstructions:[
-            "",
+            "Soak noodles in warm water or precook for 3 Minutes. Sometimes helpful to put into boiling water to soften the noodles.",
+            "Mix vinegar, sugar, fish sauce, and ketchup or paprika.",
+            "Mince garlic, ginger, & green onions. Cook in hot wok until lightly browned and take and remove from pan.",
+            "Roast peanuts quickly and remove from pan. These burn quickly so keep an eye on them.",
+            "Cook dried peppers and remove from pan. If cooking for those that may not want the spice you can skip this step and add Sambal Oelek to each plate at serving.",
+            "Cook protein- chicken chunked, or extra firm tofu egged and floured.",
+            "Add noodles and liquid to hot wok. Once hot add bean sprouts.",
+            "Finish with cilantro and lime to serve.",
         ],
     }, //closes recipe
 //-----Insert New Recipe Right Above This Line----
