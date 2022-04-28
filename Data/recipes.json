@@ -1,52 +1,52 @@
-const data = {
-    recipes :[ //opens data object and recipes array
+{"recipes" :[
+    
     {   "id": 0,
-        title: "American Chop Suey",
-        recipeCategory: "Entree",
-        vegetarian: false,
-        recipeIngredient: [
+        "title": "American Chop Suey",
+        "recipeCategory": "Entree",
+        "vegetarian": false,
+        "recipeIngredient": [
             "1 lb. of pasta", 
             "1 lb. ground beef", 
             "2 cloves of garlic", 
             "2 cans of condensed tomato soup",
             "2 cans of stewed tomatoes", 
-            "Salt to taste",
+            "Salt to taste"
         ],
-        recipeInstructions:[
+        "recipeInstructions":[
             "Bring salted water to a boil and cook pasta until tender or according to package directions.", 
             "Brown ground beef over medium high heat.", 
             "As the beef is almost done, add garlic and cook for 1 minute.", 
             "Add condensed tomato soup and canned stewed tomatoes to beef and simmer. If unavailable, you may substitute regular tomato soup with added sugar for the condensed tomato soup.",
-            "Add cooked pasta to sauce and stir.",
-        ],
-    }, // closes American Chop Suey
+            "Add cooked pasta to sauce and stir."
+        ]
+    },
 
     {   "id": 1,
-        title: "Baked Chicken",
-        recipeCategory: "Entree",
-        vegetarian: false,
-        recipeIngredient:[
+        "title": "Baked Chicken",
+        "recipeCategory": "Entree",
+        "vegetarian": false,
+        "recipeIngredient":[
             "Whole chicken",
             "Kosher salt- ¼ cup",
             "Pepper",
             "Lemons- 2",
             "Garlic- 6-8 cloves peeled",
             "Rosemary- several sprigs or Thyme- one sprig",
-            "Butter- 6 Tbsp.",
+            "Butter- 6 Tbsp."
         ],
-        recipeInstructions:[
+        "recipeInstructions":[
             "8 to 24 hours before baking dry brine by rubbing chicken with salt and pepper under the skin of the breast and let sit covered in the fridge.",
             "Quarter lemons, peel garlic, and stuff in cavity of chicken along with the herb you are using.",
             "Add seasoning under skin: Cut butter into cubes, smear some of the butter under the skin along with reserved herbs and slivered garlic cloves.",
             "Rub outside of the chicken with remaining butter and herbs.",
-            "Roast at 350 with aluminum foil tent for the first 30 minutes. Remove tent and cook for another 30-60 minutes, checking temperature with a meat thermometer.",
-        ],
-    }, //closes recipe
+            "Roast at 350 with aluminum foil tent for the first 30 minutes. Remove tent and cook for another 30-60 minutes, checking temperature with a meat thermometer."
+        ]
+    }, 
     {   "id": 2,
-        title: "Chocolate Bread Pudding",
-        recipeCategory: "Dessert",
-        vegetarian: true,
-        recipeIngredient: [ 
+        "title": "Chocolate Bread Pudding",
+        "recipeCategory": "Dessert",
+        "vegetarian": true,
+        "recipeIngredient": [ 
             "Bread- 4 Cups Day old Bread, cubed or torn",
             "Milk- 4 cups",
             "Eggs- 4",
@@ -55,7 +55,7 @@ const data = {
             "Vanilla- 1 - 2 teaspoons",
             "Cinnamon- pinch if desired- optional"
         ],
-        recipeInstructions:[
+        "recipeInstructions":[
             "Preheat oven to 350 degrees.",
             "Scald milk by heating it up until skin forms on top.",
             "Add sugar and bread to milk.",
@@ -65,38 +65,38 @@ const data = {
             "Add vanilla and cinnamon if desired.",
             "Pour into buttered casserole.",
             "Bain Marie the casserole dish by placing it inside another larger casserole dish filed half-way with boiling or hot water.",
-            "Bake at 350 Degrees until set, around 30-45 minutes. A knife inserted into the center should come out clean.",
-        ],
-    }, //closes recipe
+            "Bake at 350 Degrees until set, around 30-45 minutes. A knife inserted into the center should come out clean."
+        ]
+    },
 
     {   "id": 3,
-        title: "Creamed Mushrooms",
-        recipeCategory: "Entree",
-        vegetarian: true,
-        recipeIngredient: [
+        "title": "Creamed Mushrooms",
+        "recipeCategory": "Entree",
+        "vegetarian": true,
+        "recipeIngredient": [
             "Minced Onion- 2 Tbsp.", 
             "Butter- 2 Tbsp.", 
             "Brandy- 1 Tbsp.", 
             "Sherry- 1 Tbsp.", 
             "Mushrooms- 1 to 2 pounds any fresh mushroom", 
             "Cream- 1 ???", 
-            "Flour- 1 Tbsp.", 
+            "Flour- 1 Tbsp." 
         ],
-        recipeInstructions:[
+        "recipeInstructions":[
             "Melt butter in skillet, add onion, saute until soft.",
             "Add quartered mushrooms to the pan and saute over high heat until moisture evaporates.",
             "Sprinkle top with 1 Tbsp. flour.",
             "Add salt, pepper, and cream.",
             "Simmer briefly and then add brandy and sherry.",
-            "Correct seasoning as needed and serve.",
-        ],
-    }, //closes recipe
+            "Correct seasoning as needed and serve."
+        ]
+    },
 
     {   "id": 4,
-        title: "General Tso's Chicken",
-        recipeCategory: "Entree",
-        vegetarian: false,
-        recipeIngredient: [
+        "title": "General Tso's Chicken",
+        "recipeCategory": "Entree",
+        "vegetarian": false,
+        "recipeIngredient": [
             "4 cups cooked white or brown rice",
             "Steamed broccoli",
             "Sauce",
@@ -121,9 +121,9 @@ const data = {
             "1 bundle green onions",
             "4-7 dried Thai red chilies or substitute 1 Tbsp chili garlic sauce",
             "Assorted vegetables on hand, such as: carrots, cabbage, onions, etc.",
-            "Sesame seeds, for garnish",
+            "Sesame seeds, for garnish"
         ],
-        recipeInstructions:[    
+        "recipeInstructions":[    
             "Drain tofu and place between towels or paper towels. Set something heavy on top to press out excess water for 10 minutes.",
             "Chop green onions, garlic, and ginger and set aside.",
             "While tofu is pressing, prepare sauce by combining sesame oil, cornstarch, minced garlic, minced ginger, rice vinegar, maple syrup, tamari or soy sauce, and water in a small bowl and stir. Taste and adjust seasonings as needed.",
@@ -133,23 +133,23 @@ const data = {
             "Cook tofu until golden brown. Set aside.",
             "Return wok to stove. Add 1 Tbsp sesame oil, any veg you want, chopped green onions, and dried red chilies. Sauté for 1-2 minutes, stirring frequently.",
             "Add the sauce and tofu. Cook, stirring frequently, to coat the tofu and vegetables for 1-2 minutes.",
-            "Serve with rice and steamed broccoli or other desired sides.",
-        ],
-    }, //closes recipe
+            "Serve with rice and steamed broccoli or other desired sides."
+        ]
+    },
 
     {   "id": 5,
-        title: "Shirley's Grape-nut Pudding",
-        recipeCategory: "Dessert",
-        vegetarian: true,
-        recipeIngredient: [ 
+        "title": "Shirley's Grape-nut Pudding",
+        "recipeCategory": "Dessert",
+        "vegetarian": true,
+        "recipeIngredient": [ 
             "Grape-nuts- 1 cup", 
             "Milk- 4 cups", 
             "Eggs- 4", 
             "Sugar- 1 cup", 
             "Vanilla- 2 teaspoons", 
-            "Cinnamon- pinch if desired- optional", 
+            "Cinnamon- pinch if desired- optional"
         ],
-        recipeInstructions:[ 
+        "recipeInstructions":[ 
             "Preheat oven to 350 degrees.",
             "Scald milk by heating it up until skin forms on top.",
             "Add sugar and Grape-nuts to milk.",
@@ -160,21 +160,21 @@ const data = {
             "Bain Marie the casserole dish by placing it inside another larger casserole dish filed half-way with boiling or hot water.",
             "Bake at 350 Degrees until set, around 30-45 minutes.",
             "Stir pudding halfway through the bake to prevent separation of the Grape-nuts and custard in the final dish.",
-            "A knife inserted into the center should come out clean when done.",
-        ],
-    }, //closes recipe
+            "A knife inserted into the center should come out clean when done."
+        ]
+    },
 
     {   "id": 6,
-        title: "Kombucha",
-        recipeCategory: "Beverage",
-        vegetarian: true,
-        recipeIngredient: [
+        "title": "Kombucha",
+        "recipeCategory": "Beverage",
+        "vegetarian": true,
+        "recipeIngredient": [
             "Water- 1 Gallon",
             "Black Tea- 4 Tablespoons or 12 teabags",
             "Sugar- 1 Cup",
-            "Kombucha Starter- 2 Cups",
+            "Kombucha Starter- 2 Cups"
         ],
-        recipeInstructions:[
+        "recipeInstructions":[
             "Boil water.",
             "Steep tea.",
             "Add sugar and stir to dissolve.",
@@ -183,15 +183,15 @@ const data = {
             "To bottle, If adding fruit juice, fill 10-20% of the bottle with juice and cover with kombucha. If adding sugar, start out with 1 teaspoon/4 grams per bottle (450mL/16oz), and adjust based on experimentation.",
             "Let the bottles sit at room temperature for anywhere between 1 and 7 days.",
             "Refrigerate the finished bottles to stop the fermentation process and allow more CO2 to dissolve into the liquid.",
-            "Many thanks to the Reddit Kombucha recipe from which this is derived.",
-        ],
-    }, //closes recipe
+            "Many thanks to the Reddit Kombucha recipe from which this is derived."
+        ]
+    },
    
     {   "id": 7,
-        title: "Pad Thai",
-        recipeCategory: "Entree",
-        vegetarian: true,
-        recipeIngredient: [
+        "title": "Pad Thai",
+        "recipeCategory": "Entree",
+        "vegetarian": true,
+        "recipeIngredient": [
             "White Vinegar- 1 Cup",
             "White Sugar- 2/3 Cup",
             "Fish Sauce- 1 Cup (may use less)",
@@ -205,9 +205,9 @@ const data = {
             "Bean Sprouts- 1 Package or 2 cups",
             "Cilantro- Half a bunch",
             "Lime- Juice of 1 lime",
-            "Red Hot Chili Peppers or Sambal Oelek",
+            "Red Hot Chili Peppers or Sambal Oelek"
         ],
-        recipeInstructions:[
+        "recipeInstructions":[
             "Soak noodles in warm water or precook for 3 Minutes. Sometimes helpful to put into boiling water to soften the noodles.",
             "Mix vinegar, sugar, fish sauce, and ketchup or paprika.",
             "Mince garlic, ginger, & green onions. Cook in hot wok until lightly browned and take and remove from pan.",
@@ -215,26 +215,23 @@ const data = {
             "Cook dried peppers and remove from pan. If cooking for those that may not want the spice you can skip this step and add Sambal Oelek to each plate at serving.",
             "Cook protein- chicken chunked, or extra firm tofu egged and floured.",
             "Add noodles and liquid to hot wok. Once hot add bean sprouts.",
-            "Finish with cilantro and lime to serve.",
+            "Finish with cilantro and lime to serve."
+        ]
+    } ,
+    {   "id": 8,
+        "title": "",
+        "recipeCategory": "",
+        "vegetarian": false,
+        "recipeIngredient": [
+            "" 
         ],
-    }, //closes recipe
-//-----Insert New Recipe Right Above This Line----
+        "recipeInstructions":[
+            ""
+        ]
+    }
 
-]}; //closes data.recipes array with ], closes data object with }
 
-const template = {recipes :[
-    //Template between these two comments ------>
 
-    {   "id": 0,
-        title: "",
-        recipeCategory: "",
-        vegetarian: false,
-        recipeIngredient: [
-            "", 
-        ],
-        recipeInstructions:[
-            "",
-        ],
-    }, //closes recipe
-    //<-------Template between these two comments
-]};
+
+    ]
+}
