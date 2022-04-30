@@ -1,3 +1,8 @@
+//linking JSON
+
+    let fetchedRes = fetch("https://zandermanz.github.io/Family-Cookbook/data/recipes.json");
+    const recipes = JSON.parse(fetchedRes);
+
 //Defining Filters
     const entrees = recipes.filter(recipes => recipes.recipeCategory == "Entree");
     const desserts = recipes.filter(recipes => recipes.recipeCategory == "Dessert");
