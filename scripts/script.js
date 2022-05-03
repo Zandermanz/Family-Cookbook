@@ -1,12 +1,35 @@
 //linking JSON
+    //loads JSON data and returns it
+    async function loadData(){
+        let response = await fetch("../data/recipes.json");
+        return await response.json();
+    }
 
-    let fetchedRes = fetch("https://zandermanz.github.io/Family-Cookbook/data/recipes.json");
-    const recipes = JSON.parse(fetchedRes);
+    //Unfinished - Another idea to load JSON
+    function loadJSON(){
+        fetch("../data/recipes.json")
+        .then(function(response){
+            //console.log(response);
+            return response.json
+        })
+        
+        .then(function(data){ //takes returned response.json as data parameter
+            //console.log(data);
+            return data;
+        })
+    }
+
+    //used loadJSON method, returns undefined
+    let JSONrecipes = loadJSON();
+    
+    //loads data into recipes using loadData instead
+    const data = loadData();
+    
 
 //Defining Filters
-    const entrees = recipes.filter(recipes => recipes.recipeCategory == "Entree");
-    const desserts = recipes.filter(recipes => recipes.recipeCategory == "Dessert");
-    const vegetarian = recipes.filter(recipes => recipes.vegetarian == true);
+    // const entrees = recipes.filter(recipes => recipes.recipeCategory == "Entree");
+    // const desserts = recipes.filter(recipes => recipes.recipeCategory == "Dessert");
+    // const vegetarian = recipes.filter(recipes => recipes.vegetarian == true);
 
 //DOM Script
     const ingredients = document.getElementById('ingredient');
